@@ -1,11 +1,10 @@
 package com.yousufsohail.appbackgroundforeground;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class FirstActivity extends Activity {
+public class FirstActivity extends BackgroundDetectorBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
